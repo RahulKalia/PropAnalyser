@@ -12,7 +12,7 @@ namespace PropertyAnalyser
     {
         static void Main()
         {
-            ZooplaDotNetClient client = new ZooplaDotNetClient("kwtd8fs3eqbvyxnfhqtd84hp");
+            ZooplaDotNetClient client = new ZooplaDotNetClient("INSERT KEY HERE");
             StandardLocationParameters locationParameters = new StandardLocationParameters();
             Console.WriteLine("Enter in a postcode:");
             locationParameters.PostCode = Console.ReadLine();
